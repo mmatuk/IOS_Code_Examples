@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC142FF01C0C229E003580A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC142FEF1C0C229E003580A7 /* AppDelegate.swift */; };
+		FC142FF21C0C229E003580A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC142FF11C0C229E003580A7 /* ViewController.swift */; };
+		FC142FF51C0C229E003580A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC142FF31C0C229E003580A7 /* Main.storyboard */; };
+		FC142FF71C0C229E003580A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC142FF61C0C229E003580A7 /* Assets.xcassets */; };
+		FC142FFA1C0C229E003580A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC142FF81C0C229E003580A7 /* LaunchScreen.storyboard */; };
+		FC1430051C0C229F003580A7 /* CupertinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1430041C0C229F003580A7 /* CupertinoTests.swift */; };
+		FC1430101C0C229F003580A7 /* CupertinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14300F1C0C229F003580A7 /* CupertinoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC1430011C0C229F003580A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC142FE41C0C229E003580A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC142FEB1C0C229E003580A7;
+			remoteInfo = Cupertino;
+		};
+		FC14300C1C0C229F003580A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC142FE41C0C229E003580A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC142FEB1C0C229E003580A7;
+			remoteInfo = Cupertino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC142FEC1C0C229E003580A7 /* Cupertino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cupertino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC142FEF1C0C229E003580A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC142FF11C0C229E003580A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC142FF41C0C229E003580A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC142FF61C0C229E003580A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC142FF91C0C229E003580A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC142FFB1C0C229E003580A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1430001C0C229F003580A7 /* CupertinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupertinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1430041C0C229F003580A7 /* CupertinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupertinoTests.swift; sourceTree = "<group>"; };
+		FC1430061C0C229F003580A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC14300B1C0C229F003580A7 /* CupertinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupertinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC14300F1C0C229F003580A7 /* CupertinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupertinoUITests.swift; sourceTree = "<group>"; };
+		FC1430111C0C229F003580A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC142FE91C0C229E003580A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142FFD1C0C229F003580A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1430081C0C229F003580A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC142FE31C0C229E003580A7 = {
+			isa = PBXGroup;
+			children = (
+				FC142FEE1C0C229E003580A7 /* Cupertino */,
+				FC1430031C0C229F003580A7 /* CupertinoTests */,
+				FC14300E1C0C229F003580A7 /* CupertinoUITests */,
+				FC142FED1C0C229E003580A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC142FED1C0C229E003580A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC142FEC1C0C229E003580A7 /* Cupertino.app */,
+				FC1430001C0C229F003580A7 /* CupertinoTests.xctest */,
+				FC14300B1C0C229F003580A7 /* CupertinoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC142FEE1C0C229E003580A7 /* Cupertino */ = {
+			isa = PBXGroup;
+			children = (
+				FC142FEF1C0C229E003580A7 /* AppDelegate.swift */,
+				FC142FF11C0C229E003580A7 /* ViewController.swift */,
+				FC142FF31C0C229E003580A7 /* Main.storyboard */,
+				FC142FF61C0C229E003580A7 /* Assets.xcassets */,
+				FC142FF81C0C229E003580A7 /* LaunchScreen.storyboard */,
+				FC142FFB1C0C229E003580A7 /* Info.plist */,
+			);
+			path = Cupertino;
+			sourceTree = "<group>";
+		};
+		FC1430031C0C229F003580A7 /* CupertinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1430041C0C229F003580A7 /* CupertinoTests.swift */,
+				FC1430061C0C229F003580A7 /* Info.plist */,
+			);
+			path = CupertinoTests;
+			sourceTree = "<group>";
+		};
+		FC14300E1C0C229F003580A7 /* CupertinoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC14300F1C0C229F003580A7 /* CupertinoUITests.swift */,
+				FC1430111C0C229F003580A7 /* Info.plist */,
+			);
+			path = CupertinoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC142FEB1C0C229E003580A7 /* Cupertino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1430141C0C229F003580A7 /* Build configuration list for PBXNativeTarget "Cupertino" */;
+			buildPhases = (
+				FC142FE81C0C229E003580A7 /* Sources */,
+				FC142FE91C0C229E003580A7 /* Frameworks */,
+				FC142FEA1C0C229E003580A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cupertino;
+			productName = Cupertino;
+			productReference = FC142FEC1C0C229E003580A7 /* Cupertino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC142FFF1C0C229F003580A7 /* CupertinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1430171C0C229F003580A7 /* Build configuration list for PBXNativeTarget "CupertinoTests" */;
+			buildPhases = (
+				FC142FFC1C0C229F003580A7 /* Sources */,
+				FC142FFD1C0C229F003580A7 /* Frameworks */,
+				FC142FFE1C0C229F003580A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1430021C0C229F003580A7 /* PBXTargetDependency */,
+			);
+			name = CupertinoTests;
+			productName = CupertinoTests;
+			productReference = FC1430001C0C229F003580A7 /* CupertinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC14300A1C0C229F003580A7 /* CupertinoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC14301A1C0C229F003580A7 /* Build configuration list for PBXNativeTarget "CupertinoUITests" */;
+			buildPhases = (
+				FC1430071C0C229F003580A7 /* Sources */,
+				FC1430081C0C229F003580A7 /* Frameworks */,
+				FC1430091C0C229F003580A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC14300D1C0C229F003580A7 /* PBXTargetDependency */,
+			);
+			name = CupertinoUITests;
+			productName = CupertinoUITests;
+			productReference = FC14300B1C0C229F003580A7 /* CupertinoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC142FE41C0C229E003580A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ccbcmd;
+				TargetAttributes = {
+					FC142FEB1C0C229E003580A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					FC142FFF1C0C229F003580A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FC142FEB1C0C229E003580A7;
+					};
+					FC14300A1C0C229F003580A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FC142FEB1C0C229E003580A7;
+					};
+				};
+			};
+			buildConfigurationList = FC142FE71C0C229E003580A7 /* Build configuration list for PBXProject "Cupertino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC142FE31C0C229E003580A7;
+			productRefGroup = FC142FED1C0C229E003580A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC142FEB1C0C229E003580A7 /* Cupertino */,
+				FC142FFF1C0C229F003580A7 /* CupertinoTests */,
+				FC14300A1C0C229F003580A7 /* CupertinoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC142FEA1C0C229E003580A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC142FFA1C0C229E003580A7 /* LaunchScreen.storyboard in Resources */,
+				FC142FF71C0C229E003580A7 /* Assets.xcassets in Resources */,
+				FC142FF51C0C229E003580A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142FFE1C0C229F003580A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1430091C0C229F003580A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC142FE81C0C229E003580A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC142FF21C0C229E003580A7 /* ViewController.swift in Sources */,
+				FC142FF01C0C229E003580A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142FFC1C0C229F003580A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1430051C0C229F003580A7 /* CupertinoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1430071C0C229F003580A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1430101C0C229F003580A7 /* CupertinoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC1430021C0C229F003580A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC142FEB1C0C229E003580A7 /* Cupertino */;
+			targetProxy = FC1430011C0C229F003580A7 /* PBXContainerItemProxy */;
+		};
+		FC14300D1C0C229F003580A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC142FEB1C0C229E003580A7 /* Cupertino */;
+			targetProxy = FC14300C1C0C229F003580A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC142FF31C0C229E003580A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC142FF41C0C229E003580A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC142FF81C0C229E003580A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC142FF91C0C229E003580A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC1430121C0C229F003580A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC1430131C0C229F003580A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1430151C0C229F003580A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cupertino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.Cupertino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC1430161C0C229F003580A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cupertino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.Cupertino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC1430181C0C229F003580A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CupertinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.CupertinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cupertino.app/Cupertino";
+			};
+			name = Debug;
+		};
+		FC1430191C0C229F003580A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CupertinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.CupertinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cupertino.app/Cupertino";
+			};
+			name = Release;
+		};
+		FC14301B1C0C229F003580A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CupertinoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.CupertinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cupertino;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC14301C1C0C229F003580A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CupertinoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.CupertinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cupertino;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC142FE71C0C229E003580A7 /* Build configuration list for PBXProject "Cupertino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1430121C0C229F003580A7 /* Debug */,
+				FC1430131C0C229F003580A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1430141C0C229F003580A7 /* Build configuration list for PBXNativeTarget "Cupertino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1430151C0C229F003580A7 /* Debug */,
+				FC1430161C0C229F003580A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC1430171C0C229F003580A7 /* Build configuration list for PBXNativeTarget "CupertinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1430181C0C229F003580A7 /* Debug */,
+				FC1430191C0C229F003580A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC14301A1C0C229F003580A7 /* Build configuration list for PBXNativeTarget "CupertinoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC14301B1C0C229F003580A7 /* Debug */,
+				FC14301C1C0C229F003580A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC142FE41C0C229E003580A7 /* Project object */;
+}

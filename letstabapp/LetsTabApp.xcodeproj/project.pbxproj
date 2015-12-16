@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCF913DD1BEA9F70005A3B3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF913DC1BEA9F70005A3B3E /* AppDelegate.swift */; };
+		FCF913E21BEA9F70005A3B3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF913E01BEA9F70005A3B3E /* Main.storyboard */; };
+		FCF913E41BEA9F70005A3B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF913E31BEA9F70005A3B3E /* Assets.xcassets */; };
+		FCF913E71BEA9F70005A3B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF913E51BEA9F70005A3B3E /* LaunchScreen.storyboard */; };
+		FCF913F21BEA9F70005A3B3E /* LetsTabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF913F11BEA9F70005A3B3E /* LetsTabTests.swift */; };
+		FCF913FD1BEA9F70005A3B3E /* LetsTabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF913FC1BEA9F70005A3B3E /* LetsTabUITests.swift */; };
+		FCF9140B1BEA9FE9005A3B3E /* CountingTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9140A1BEA9FE9005A3B3E /* CountingTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
+		FCF9140D1BEA9FFF005A3B3E /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9140C1BEA9FFF005A3B3E /* GenericViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCF913EE1BEA9F70005A3B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCF913D11BEA9F70005A3B3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF913D81BEA9F70005A3B3E;
+			remoteInfo = LetsTab;
+		};
+		FCF913F91BEA9F70005A3B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCF913D11BEA9F70005A3B3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF913D81BEA9F70005A3B3E;
+			remoteInfo = LetsTab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCF913D91BEA9F70005A3B3E /* LetsTabApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTabApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF913DC1BEA9F70005A3B3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCF913E11BEA9F70005A3B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCF913E31BEA9F70005A3B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCF913E61BEA9F70005A3B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCF913E81BEA9F70005A3B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF913ED1BEA9F70005A3B3E /* LetsTabApp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTabApp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF913F11BEA9F70005A3B3E /* LetsTabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTabTests.swift; sourceTree = "<group>"; };
+		FCF913F31BEA9F70005A3B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF913F81BEA9F70005A3B3E /* LetsTabApp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTabApp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF913FC1BEA9F70005A3B3E /* LetsTabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTabUITests.swift; sourceTree = "<group>"; };
+		FCF913FE1BEA9F70005A3B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF9140A1BEA9FE9005A3B3E /* CountingTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingTabBarController.swift; sourceTree = "<group>"; };
+		FCF9140C1BEA9FFF005A3B3E /* GenericViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCF913D61BEA9F70005A3B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF913EA1BEA9F70005A3B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF913F51BEA9F70005A3B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCF913D01BEA9F70005A3B3E = {
+			isa = PBXGroup;
+			children = (
+				FCF913DB1BEA9F70005A3B3E /* LetsTab */,
+				FCF913F01BEA9F70005A3B3E /* LetsTabTests */,
+				FCF913FB1BEA9F70005A3B3E /* LetsTabUITests */,
+				FCF913DA1BEA9F70005A3B3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCF913DA1BEA9F70005A3B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCF913D91BEA9F70005A3B3E /* LetsTabApp.app */,
+				FCF913ED1BEA9F70005A3B3E /* LetsTabApp.xctest */,
+				FCF913F81BEA9F70005A3B3E /* LetsTabApp.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCF913DB1BEA9F70005A3B3E /* LetsTab */ = {
+			isa = PBXGroup;
+			children = (
+				FCF913DC1BEA9F70005A3B3E /* AppDelegate.swift */,
+				FCF913E01BEA9F70005A3B3E /* Main.storyboard */,
+				FCF913E31BEA9F70005A3B3E /* Assets.xcassets */,
+				FCF9140A1BEA9FE9005A3B3E /* CountingTabBarController.swift */,
+				FCF9140C1BEA9FFF005A3B3E /* GenericViewController.swift */,
+				FCF913E51BEA9F70005A3B3E /* LaunchScreen.storyboard */,
+				FCF913E81BEA9F70005A3B3E /* Info.plist */,
+			);
+			path = LetsTab;
+			sourceTree = "<group>";
+		};
+		FCF913F01BEA9F70005A3B3E /* LetsTabTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCF913F11BEA9F70005A3B3E /* LetsTabTests.swift */,
+				FCF913F31BEA9F70005A3B3E /* Info.plist */,
+			);
+			path = LetsTabTests;
+			sourceTree = "<group>";
+		};
+		FCF913FB1BEA9F70005A3B3E /* LetsTabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCF913FC1BEA9F70005A3B3E /* LetsTabUITests.swift */,
+				FCF913FE1BEA9F70005A3B3E /* Info.plist */,
+			);
+			path = LetsTabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCF913D81BEA9F70005A3B3E /* LetsTabApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF914011BEA9F70005A3B3E /* Build configuration list for PBXNativeTarget "LetsTabApp" */;
+			buildPhases = (
+				FCF913D51BEA9F70005A3B3E /* Sources */,
+				FCF913D61BEA9F70005A3B3E /* Frameworks */,
+				FCF913D71BEA9F70005A3B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsTabApp;
+			productName = LetsTab;
+			productReference = FCF913D91BEA9F70005A3B3E /* LetsTabApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCF913EC1BEA9F70005A3B3E /* LetsTabAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF914041BEA9F70005A3B3E /* Build configuration list for PBXNativeTarget "LetsTabAppTests" */;
+			buildPhases = (
+				FCF913E91BEA9F70005A3B3E /* Sources */,
+				FCF913EA1BEA9F70005A3B3E /* Frameworks */,
+				FCF913EB1BEA9F70005A3B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF913EF1BEA9F70005A3B3E /* PBXTargetDependency */,
+			);
+			name = LetsTabAppTests;
+			productName = LetsTabTests;
+			productReference = FCF913ED1BEA9F70005A3B3E /* LetsTabApp.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCF913F71BEA9F70005A3B3E /* LetsTabAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF914071BEA9F70005A3B3E /* Build configuration list for PBXNativeTarget "LetsTabAppUITests" */;
+			buildPhases = (
+				FCF913F41BEA9F70005A3B3E /* Sources */,
+				FCF913F51BEA9F70005A3B3E /* Frameworks */,
+				FCF913F61BEA9F70005A3B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF913FA1BEA9F70005A3B3E /* PBXTargetDependency */,
+			);
+			name = LetsTabAppUITests;
+			productName = LetsTabUITests;
+			productReference = FCF913F81BEA9F70005A3B3E /* LetsTabApp.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCF913D11BEA9F70005A3B3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ccbcmd;
+				TargetAttributes = {
+					FCF913D81BEA9F70005A3B3E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					FCF913EC1BEA9F70005A3B3E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FCF913D81BEA9F70005A3B3E;
+					};
+					FCF913F71BEA9F70005A3B3E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FCF913D81BEA9F70005A3B3E;
+					};
+				};
+			};
+			buildConfigurationList = FCF913D41BEA9F70005A3B3E /* Build configuration list for PBXProject "LetsTabApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCF913D01BEA9F70005A3B3E;
+			productRefGroup = FCF913DA1BEA9F70005A3B3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCF913D81BEA9F70005A3B3E /* LetsTabApp */,
+				FCF913EC1BEA9F70005A3B3E /* LetsTabAppTests */,
+				FCF913F71BEA9F70005A3B3E /* LetsTabAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCF913D71BEA9F70005A3B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF913E71BEA9F70005A3B3E /* LaunchScreen.storyboard in Resources */,
+				FCF913E41BEA9F70005A3B3E /* Assets.xcassets in Resources */,
+				FCF913E21BEA9F70005A3B3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF913EB1BEA9F70005A3B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF913F61BEA9F70005A3B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCF913D51BEA9F70005A3B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF9140D1BEA9FFF005A3B3E /* GenericViewController.swift in Sources */,
+				FCF9140B1BEA9FE9005A3B3E /* CountingTabBarController.swift in Sources */,
+				FCF913DD1BEA9F70005A3B3E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF913E91BEA9F70005A3B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF913F21BEA9F70005A3B3E /* LetsTabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF913F41BEA9F70005A3B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF913FD1BEA9F70005A3B3E /* LetsTabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCF913EF1BEA9F70005A3B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF913D81BEA9F70005A3B3E /* LetsTabApp */;
+			targetProxy = FCF913EE1BEA9F70005A3B3E /* PBXContainerItemProxy */;
+		};
+		FCF913FA1BEA9F70005A3B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF913D81BEA9F70005A3B3E /* LetsTabApp */;
+			targetProxy = FCF913F91BEA9F70005A3B3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCF913E01BEA9F70005A3B3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF913E11BEA9F70005A3B3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCF913E51BEA9F70005A3B3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF913E61BEA9F70005A3B3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCF913FF1BEA9F70005A3B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCF914001BEA9F70005A3B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCF914021BEA9F70005A3B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LetsTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.LetsTabApp;
+				PRODUCT_NAME = LetsTabApp;
+			};
+			name = Debug;
+		};
+		FCF914031BEA9F70005A3B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LetsTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.LetsTabApp;
+				PRODUCT_NAME = LetsTabApp;
+			};
+			name = Release;
+		};
+		FCF914051BEA9F70005A3B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LetsTabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.LetsTabTests;
+				PRODUCT_NAME = LetsTabApp;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsTabApp.app/LetsTabApp";
+			};
+			name = Debug;
+		};
+		FCF914061BEA9F70005A3B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LetsTabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.LetsTabTests;
+				PRODUCT_NAME = LetsTabApp;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsTabApp.app/LetsTabApp";
+			};
+			name = Release;
+		};
+		FCF914081BEA9F70005A3B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LetsTabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.LetsTabUITests;
+				PRODUCT_NAME = LetsTabApp;
+				TEST_TARGET_NAME = LetsTab;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FCF914091BEA9F70005A3B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LetsTabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.LetsTabUITests;
+				PRODUCT_NAME = LetsTabApp;
+				TEST_TARGET_NAME = LetsTab;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCF913D41BEA9F70005A3B3E /* Build configuration list for PBXProject "LetsTabApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF913FF1BEA9F70005A3B3E /* Debug */,
+				FCF914001BEA9F70005A3B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF914011BEA9F70005A3B3E /* Build configuration list for PBXNativeTarget "LetsTabApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF914021BEA9F70005A3B3E /* Debug */,
+				FCF914031BEA9F70005A3B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF914041BEA9F70005A3B3E /* Build configuration list for PBXNativeTarget "LetsTabAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF914051BEA9F70005A3B3E /* Debug */,
+				FCF914061BEA9F70005A3B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF914071BEA9F70005A3B3E /* Build configuration list for PBXNativeTarget "LetsTabAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF914081BEA9F70005A3B3E /* Debug */,
+				FCF914091BEA9F70005A3B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCF913D11BEA9F70005A3B3E /* Project object */;
+}

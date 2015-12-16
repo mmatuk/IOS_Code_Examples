@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC142F771C0BBD1F003580A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC142F761C0BBD1F003580A7 /* AppDelegate.swift */; };
+		FC142F791C0BBD1F003580A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC142F781C0BBD1F003580A7 /* ViewController.swift */; };
+		FC142F7C1C0BBD1F003580A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC142F7A1C0BBD1F003580A7 /* Main.storyboard */; };
+		FC142F7E1C0BBD1F003580A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC142F7D1C0BBD1F003580A7 /* Assets.xcassets */; };
+		FC142F811C0BBD1F003580A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC142F7F1C0BBD1F003580A7 /* LaunchScreen.storyboard */; };
+		FC142F8C1C0BBD20003580A7 /* MediaPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC142F8B1C0BBD20003580A7 /* MediaPlaygroundTests.swift */; };
+		FC142F971C0BBD20003580A7 /* MediaPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC142F961C0BBD20003580A7 /* MediaPlaygroundUITests.swift */; };
+		FC142FA71C0BBD7D003580A7 /* movie.m4v in Resources */ = {isa = PBXBuildFile; fileRef = FC142FA51C0BBD7D003580A7 /* movie.m4v */; settings = {ASSET_TAGS = (); }; };
+		FC142FA81C0BBD7D003580A7 /* norecording.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC142FA61C0BBD7D003580A7 /* norecording.wav */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC142F881C0BBD20003580A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC142F6B1C0BBD1F003580A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC142F721C0BBD1F003580A7;
+			remoteInfo = MediaPlayground;
+		};
+		FC142F931C0BBD20003580A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC142F6B1C0BBD1F003580A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC142F721C0BBD1F003580A7;
+			remoteInfo = MediaPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC142F731C0BBD1F003580A7 /* MediaPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC142F761C0BBD1F003580A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC142F781C0BBD1F003580A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC142F7B1C0BBD1F003580A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC142F7D1C0BBD1F003580A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC142F801C0BBD1F003580A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC142F821C0BBD1F003580A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC142F871C0BBD20003580A7 /* MediaPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC142F8B1C0BBD20003580A7 /* MediaPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlaygroundTests.swift; sourceTree = "<group>"; };
+		FC142F8D1C0BBD20003580A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC142F921C0BBD20003580A7 /* MediaPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC142F961C0BBD20003580A7 /* MediaPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlaygroundUITests.swift; sourceTree = "<group>"; };
+		FC142F981C0BBD20003580A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC142FA51C0BBD7D003580A7 /* movie.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.m4v; sourceTree = "<group>"; };
+		FC142FA61C0BBD7D003580A7 /* norecording.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = norecording.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC142F701C0BBD1F003580A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142F841C0BBD20003580A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142F8F1C0BBD20003580A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC142F6A1C0BBD1F003580A7 = {
+			isa = PBXGroup;
+			children = (
+				FC142F751C0BBD1F003580A7 /* MediaPlayground */,
+				FC142F8A1C0BBD20003580A7 /* MediaPlaygroundTests */,
+				FC142F951C0BBD20003580A7 /* MediaPlaygroundUITests */,
+				FC142F741C0BBD1F003580A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC142F741C0BBD1F003580A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC142F731C0BBD1F003580A7 /* MediaPlayground.app */,
+				FC142F871C0BBD20003580A7 /* MediaPlaygroundTests.xctest */,
+				FC142F921C0BBD20003580A7 /* MediaPlaygroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC142F751C0BBD1F003580A7 /* MediaPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				FC142FA41C0BBD7D003580A7 /* Media */,
+				FC142F761C0BBD1F003580A7 /* AppDelegate.swift */,
+				FC142F781C0BBD1F003580A7 /* ViewController.swift */,
+				FC142F7A1C0BBD1F003580A7 /* Main.storyboard */,
+				FC142F7D1C0BBD1F003580A7 /* Assets.xcassets */,
+				FC142F7F1C0BBD1F003580A7 /* LaunchScreen.storyboard */,
+				FC142F821C0BBD1F003580A7 /* Info.plist */,
+			);
+			path = MediaPlayground;
+			sourceTree = "<group>";
+		};
+		FC142F8A1C0BBD20003580A7 /* MediaPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC142F8B1C0BBD20003580A7 /* MediaPlaygroundTests.swift */,
+				FC142F8D1C0BBD20003580A7 /* Info.plist */,
+			);
+			path = MediaPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		FC142F951C0BBD20003580A7 /* MediaPlaygroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC142F961C0BBD20003580A7 /* MediaPlaygroundUITests.swift */,
+				FC142F981C0BBD20003580A7 /* Info.plist */,
+			);
+			path = MediaPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+		FC142FA41C0BBD7D003580A7 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				FC142FA51C0BBD7D003580A7 /* movie.m4v */,
+				FC142FA61C0BBD7D003580A7 /* norecording.wav */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC142F721C0BBD1F003580A7 /* MediaPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC142F9B1C0BBD20003580A7 /* Build configuration list for PBXNativeTarget "MediaPlayground" */;
+			buildPhases = (
+				FC142F6F1C0BBD1F003580A7 /* Sources */,
+				FC142F701C0BBD1F003580A7 /* Frameworks */,
+				FC142F711C0BBD1F003580A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaPlayground;
+			productName = MediaPlayground;
+			productReference = FC142F731C0BBD1F003580A7 /* MediaPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC142F861C0BBD20003580A7 /* MediaPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC142F9E1C0BBD20003580A7 /* Build configuration list for PBXNativeTarget "MediaPlaygroundTests" */;
+			buildPhases = (
+				FC142F831C0BBD20003580A7 /* Sources */,
+				FC142F841C0BBD20003580A7 /* Frameworks */,
+				FC142F851C0BBD20003580A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC142F891C0BBD20003580A7 /* PBXTargetDependency */,
+			);
+			name = MediaPlaygroundTests;
+			productName = MediaPlaygroundTests;
+			productReference = FC142F871C0BBD20003580A7 /* MediaPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC142F911C0BBD20003580A7 /* MediaPlaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC142FA11C0BBD20003580A7 /* Build configuration list for PBXNativeTarget "MediaPlaygroundUITests" */;
+			buildPhases = (
+				FC142F8E1C0BBD20003580A7 /* Sources */,
+				FC142F8F1C0BBD20003580A7 /* Frameworks */,
+				FC142F901C0BBD20003580A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC142F941C0BBD20003580A7 /* PBXTargetDependency */,
+			);
+			name = MediaPlaygroundUITests;
+			productName = MediaPlaygroundUITests;
+			productReference = FC142F921C0BBD20003580A7 /* MediaPlaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC142F6B1C0BBD1F003580A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ccbcmd;
+				TargetAttributes = {
+					FC142F721C0BBD1F003580A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					FC142F861C0BBD20003580A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FC142F721C0BBD1F003580A7;
+					};
+					FC142F911C0BBD20003580A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FC142F721C0BBD1F003580A7;
+					};
+				};
+			};
+			buildConfigurationList = FC142F6E1C0BBD1F003580A7 /* Build configuration list for PBXProject "MediaPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC142F6A1C0BBD1F003580A7;
+			productRefGroup = FC142F741C0BBD1F003580A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC142F721C0BBD1F003580A7 /* MediaPlayground */,
+				FC142F861C0BBD20003580A7 /* MediaPlaygroundTests */,
+				FC142F911C0BBD20003580A7 /* MediaPlaygroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC142F711C0BBD1F003580A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC142F811C0BBD1F003580A7 /* LaunchScreen.storyboard in Resources */,
+				FC142F7E1C0BBD1F003580A7 /* Assets.xcassets in Resources */,
+				FC142FA81C0BBD7D003580A7 /* norecording.wav in Resources */,
+				FC142FA71C0BBD7D003580A7 /* movie.m4v in Resources */,
+				FC142F7C1C0BBD1F003580A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142F851C0BBD20003580A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142F901C0BBD20003580A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC142F6F1C0BBD1F003580A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC142F791C0BBD1F003580A7 /* ViewController.swift in Sources */,
+				FC142F771C0BBD1F003580A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142F831C0BBD20003580A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC142F8C1C0BBD20003580A7 /* MediaPlaygroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC142F8E1C0BBD20003580A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC142F971C0BBD20003580A7 /* MediaPlaygroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC142F891C0BBD20003580A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC142F721C0BBD1F003580A7 /* MediaPlayground */;
+			targetProxy = FC142F881C0BBD20003580A7 /* PBXContainerItemProxy */;
+		};
+		FC142F941C0BBD20003580A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC142F721C0BBD1F003580A7 /* MediaPlayground */;
+			targetProxy = FC142F931C0BBD20003580A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC142F7A1C0BBD1F003580A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC142F7B1C0BBD1F003580A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC142F7F1C0BBD1F003580A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC142F801C0BBD1F003580A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC142F991C0BBD20003580A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC142F9A1C0BBD20003580A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC142F9C1C0BBD20003580A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MediaPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.MediaPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC142F9D1C0BBD20003580A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MediaPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.MediaPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC142F9F1C0BBD20003580A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MediaPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.MediaPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediaPlayground.app/MediaPlayground";
+			};
+			name = Debug;
+		};
+		FC142FA01C0BBD20003580A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MediaPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.MediaPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediaPlayground.app/MediaPlayground";
+			};
+			name = Release;
+		};
+		FC142FA21C0BBD20003580A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MediaPlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.MediaPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MediaPlayground;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC142FA31C0BBD20003580A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MediaPlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csit267.MediaPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MediaPlayground;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC142F6E1C0BBD1F003580A7 /* Build configuration list for PBXProject "MediaPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC142F991C0BBD20003580A7 /* Debug */,
+				FC142F9A1C0BBD20003580A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC142F9B1C0BBD20003580A7 /* Build configuration list for PBXNativeTarget "MediaPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC142F9C1C0BBD20003580A7 /* Debug */,
+				FC142F9D1C0BBD20003580A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC142F9E1C0BBD20003580A7 /* Build configuration list for PBXNativeTarget "MediaPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC142F9F1C0BBD20003580A7 /* Debug */,
+				FC142FA01C0BBD20003580A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC142FA11C0BBD20003580A7 /* Build configuration list for PBXNativeTarget "MediaPlaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC142FA21C0BBD20003580A7 /* Debug */,
+				FC142FA31C0BBD20003580A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC142F6B1C0BBD1F003580A7 /* Project object */;
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ImageHop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="baJ-6q-sa3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="472"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame-1" translatesAutoresizingMaskIntoConstraints="NO" id="gA3-4S-VTC">
+                                <rect key="frame" x="90" y="219" width="195" height="210"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame-1" translatesAutoresizingMaskIntoConstraints="NO" id="W6G-uC-pOi">
+                                <rect key="frame" x="16" y="196" width="160" height="172"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame-1" translatesAutoresizingMaskIntoConstraints="NO" id="Oi6-FL-glv">
+                                <rect key="frame" x="199" y="196" width="160" height="172"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame-1" translatesAutoresizingMaskIntoConstraints="NO" id="xi3-22-8vO">
+                                <rect key="frame" x="-17" y="140" width="131" height="142"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame-1" translatesAutoresizingMaskIntoConstraints="NO" id="KFm-6F-jIH">
+                                <rect key="frame" x="264" y="140" width="131" height="142"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.25" maxValue="1.75" translatesAutoresizingMaskIntoConstraints="NO" id="1u3-TJ-iHZ">
+                                <rect key="frame" x="14" y="527" width="347" height="31"/>
+                                <connections>
+                                    <action selector="setSpeed:" destination="vXZ-lx-hvc" eventType="valueChanged" id="ino-dA-Ldm"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Speed:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHi-fA-2qY">
+                                <rect key="frame" x="160" y="498" width="55" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" value="1" minimumValue="0.25" maximumValue="1.75" stepValue="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="iUK-by-ah3">
+                                <rect key="frame" x="140" y="575" width="94" height="29"/>
+                                <connections>
+                                    <action selector="setIncrement:" destination="vXZ-lx-hvc" eventType="valueChanged" id="ZW6-cN-CnI"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Maximum Hops Per Second:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s28-Wv-8iB">
+                                <rect key="frame" x="39" y="20" width="221" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.00 hps" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mJ-JZ-cVC">
+                                <rect key="frame" x="268" y="20" width="67" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZG-Ud-vp6">
+                                <rect key="frame" x="140" y="617" width="94" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="HOP!"/>
+                                <connections>
+                                    <action selector="toggleAnimation:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8ud-dY-kCw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.70972704909999995" green="1" blue="0.59351070719999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="bunnyView1" destination="gA3-4S-VTC" id="oQZ-c4-THZ"/>
+                        <outlet property="bunnyView2" destination="W6G-uC-pOi" id="2uK-4b-znB"/>
+                        <outlet property="bunnyView3" destination="Oi6-FL-glv" id="pGF-HT-ssq"/>
+                        <outlet property="bunnyView4" destination="xi3-22-8vO" id="jop-Qx-z6n"/>
+                        <outlet property="bunnyView5" destination="KFm-6F-jIH" id="yBr-kB-S8e"/>
+                        <outlet property="hopsPerSecond" destination="5mJ-JZ-cVC" id="rxI-sG-2jG"/>
+                        <outlet property="speedSlider" destination="1u3-TJ-iHZ" id="kCr-Cm-QNp"/>
+                        <outlet property="speedStepper" destination="iUK-by-ah3" id="e4Y-op-mUB"/>
+                        <outlet property="toggleButton" destination="YZG-Ud-vp6" id="rcf-PD-Pek"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="301.5" y="388.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="2398" height="1799"/>
+        <image name="frame-1" width="320" height="320"/>
+    </resources>
+</document>
